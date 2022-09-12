@@ -3,21 +3,141 @@ body {
   font-family: "Montserrat", sans-serif;
   font-family: "Raleway", sans-serif;
   font-family: "Roboto", sans-serif;
+  cursor: pointer;
 }
-.div1 {
+.logo {
+  font-family: "Raleway";
+  font-weight: 700px;
+  font-size: 26px;
+  color: #000000;
+}
+.blue-text {
+  color: #2196f3;
+}
+.links-ag {
+  color: #2196f3;
+  font-weight: 500px;
+  font-size: 14px;
+}
+.links-ag:active {
+  color: red;
+}
+.link {
+  color: #212121;
+  font-style: medium;
+  font-weight: 500px;
+  font-size: 14px;
+}
+.link:hover {
+  color: aqua;
+}
+.link-email {
+  color: #2196f3;
+  font-family: "Roboto";
+  font-weight: 500px;
+  font-size: 14px;
+}
+.link-email:hover {
+  color: aqua;
+}
+.link-contact {
+  color: #757575;
+  font-family: "Roboto";
+  font-weight: 500px;
+  font-size: 14px;
+  font-style: Medium;
+}
+.link-contact:hover {
+  color: aqua;
+}
+
+.title-background {
   background-color: #2f303a;
   width: 1600px;
-  height: 600px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  padding: 200px 0;
+  flex-direction: column;
 }
 
 #title {
+  font-weight: 900px;
   font-size: 44px;
+  color: #ffffff;
+  display: block;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 200px;
+}
+.button-style {
+  background: #2196f3;
+  font-weight: 700px;
+  font-size: 16px;
+  width: 200px;
+  height: 50px;
+}
+.white-text {
   color: #ffffff;
 }
 
 h4 {
   color: #212121;
-  font-family: "Roboto";
   font-style: Bold;
+  text-transform: uppercase;
+  font-weight: 700px;
+  font-size: 14px;
+}
+
+p {
+  color: #757575;
+  font-weight: 400px;
+  font-size: 14px;
+}
+
+h2 {
+  color: #212121;
+  font-weight: 700px;
   font-size: 36px;
+  text-align: center;
+}
+h5 {
+  color: #212121;
+  font-weight: 500px;
+  font-size: 16px;
+}
+figcaption {
+  color: #757575;
+  font-weight: 400px;
+  font-size: 16px;
+}
+.bottom-background {
+  background-color: #2f303a;
+  width: 1600px;
+  height: 252px;
+  display: block;
+}
+.studio-text {
+  color: #ffffff;
+}
+.address {
+  color: #ffffff;
+  font-weight: 400px;
+  font-size: 14px;
+}
+.link-contact-bottom {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 14px;
+}
+.link-contact-bottom:hover {
+  color: aqua;
+}
+.schedule-body {
+  font-weight: 500px;
+  font-size: 16px;
+  text-align: center;
+}
+.schedule-body:hover {
+  background-color: #2196f3;
+  color: white;
 }

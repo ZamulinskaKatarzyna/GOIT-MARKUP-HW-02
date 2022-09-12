@@ -10,29 +10,31 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
 
-<link rel="stylesheet" href="style.css"/>
+<link rel="stylesheet" href="css/style.css"/>
 
 </head>
 
   <body>
-    <header class="header-style">
-<a class="logo" href="/WebStudio"><span class="blue-text">Web</span>Studio</a>
-      <nav>
+    <header>
+      <h3>
+<a class="logo" href="index.html"><span class="blue-text">Web</span>Studio</a>
+      </h3>    
+<nav>
         <ul>
-          <li><a href="/Agencja">Agencja</a></li>
-          <li><a href="portfolio.html">Portfolio</a></li>
-          <li><a href="/Kontakt">Kontakt</a></li>
+          <li><a class="link-ag" href="/Agencja">Agencja</a></li>
+          <li><a  class="link" href="portfolio.html">Portfolio</a></li>
+          <li><a  class="link" href="/Kontakt">Kontakt</a></li>
         </ul>
       </nav>
         <ul>
-          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a href="tel:+48 111 111 111">+48 111 111 111</a></li>
+          <li><a class="link-email" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+          <li><a class="link-contact" href="tel:+48 111 111 111">+48 111 111 111</a></li>
         </ul>
 
-      <div1>
-        <h1 id="title">efektywne rozwiazanie dla waszego biznesu</h1>
-        <button type="button">zamów uslugę</button>
-      </div1>
+      <div class="title-background">
+        <h1 id="title">efektywne rozwiązania dla waszego biznesu</h1>
+        <button type="button" class="button-style"><span class="white-text">Zamów usługę</span></button>
+      </div >
     </header>
 
     <main>
@@ -40,34 +42,34 @@
       <ul>
       <li>
         <h4>Lorem ipsum</h4>
-        Lorem ipsumdolor sit amet consectetur adipisicing elit. Perspiciatis ea
+        <p>Lorem ipsumdolor sit amet consectetur adipisicing elit. Perspiciatis ea
         sit asperiores error. Unde qui corrupti vel sapiente ipsum soluta non!
-        Quidem corporis nemo, eius impedit quod aut ut porro.
+        Quidem corporis nemo, eius impedit quod aut ut porro.</p>
       </li>
       <li>
         <h4>Lorem ipsum</h4>
-        lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum,
+        <p>lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum,
         officiis dolores temporibus exercitationem voluptate quidem illum
         pariatur quia dolore itaque voluptatibus iusto possimus expedita, iste
-        necessitatibus? Doloribus culpa placeat incidunt.
+        necessitatibus? Doloribus culpa placeat incidunt.</p>
       </li>
       <li>
         <h4>Lorem ipsum</h4>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur,
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur,
         tempore? Repellendus similique et, voluptas eum tenetur ipsum dolores
         magnam porro amet doloribus vero quasi optio asperiores unde dignissimos
-        a impedit.
+        a impedit.</p>
       </li>
       <li>
         <h4>Lorem ipsum</h4>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita
         repellendus possimus accusantium excepturi veniam recusandae assumenda!
         Maxime debitis blanditiis cupiditate enim excepturi, omnis ipsa. Magnam
-        et quasi tempora id qui?
+        et quasi tempora id qui?</p>
       </li>
 
       <div>
-        <h2>czym sie zajmujemy</h2>
+        <h2>Czym się zajmujemy</h2>
         <ul>
         <li>
           <img
@@ -98,7 +100,7 @@
       </div>
 
       <div>
-        <h2>nasz zespol</h2>
+        <h2>Nasz zespół</h2>
         <lu>
         <li>
           <img
@@ -107,7 +109,7 @@
             width="270"
             height="368"
           />
-          <figcaption>John Doe Product Designer</figcaption>
+          <h5>John Doe</h5><figcaption>Product Designer</figcaption>
         </li>
 
         <li>
@@ -117,7 +119,7 @@
             width="270"
             height="368"
           />
-          <figcaption>John Doe Fronted Developer</figcaption>
+          <h5>John Doe</h5><figcaption>Fronted Developer</figcaption>
         </li>
 
         <li>
@@ -127,7 +129,7 @@
             width="270"
             height="368"
           />
-          <figcaption>John Doe Marketing</figcaption>
+          <h5>John Doe</h5><figcaption>Marketing</figcaption>
         </li>
 
         <li>
@@ -137,17 +139,19 @@
             width="270"
             height="368"
           />
-          <figcaption>John Doe Ul Designer</figcaption>
+          <h5>John Doe</h5><figcaption>Ul Designer</figcaption>
         </li>
       </div>
 
-      <footer>
-        <h2>webstudio</h2>
+      <footer class="bottom-background">
+        <h3>
+          <a class="logo" href="index.html"><span class="blue-text">Web</span><span class="studio-text">Studio</span></a>
+        </h3>
         <address>
           <ul>
-          <li>m.Warszawa, Aleje Jerozolimskie 21</li>
-          <li>info@devstudio.com</li>
-          <li>+48 111 111 111</li>
+          <li class="address">m.Warszawa, Aleje Jerozolimskie 21</li>
+          <li class="link-contact-bottom" href="mailto:info@devstudio.com">info@devstudio.com</li>
+          <li class="link-contact-bottom" href="tel:+48 111 111 111">+48 111 111 111</li>
           </ul>
         </address>
       </footer>
