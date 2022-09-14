@@ -3,7 +3,6 @@ body {
   font-family: "Montserrat", sans-serif;
   font-family: "Raleway", sans-serif;
   font-family: "Roboto", sans-serif;
-  cursor: pointer;
 }
 .logo {
   font-family: "Raleway";
@@ -14,10 +13,12 @@ body {
 .blue-text {
   color: #2196f3;
 }
+
 .links-ag {
   color: #2196f3;
   font-weight: 500px;
   font-size: 14px;
+  cursor: pointer;
 }
 .links-ag:active {
   color: red;
@@ -27,15 +28,14 @@ body {
   font-style: medium;
   font-weight: 500px;
   font-size: 14px;
-}
-.link:hover {
-  color: aqua;
+  cursor: pointer;
 }
 .link-email {
   color: #2196f3;
   font-family: "Roboto";
   font-weight: 500px;
   font-size: 14px;
+  cursor: pointer;
 }
 .link-email:hover {
   color: aqua;
@@ -46,6 +46,7 @@ body {
   font-weight: 500px;
   font-size: 14px;
   font-style: Medium;
+  cursor: pointer;
 }
 .link-contact:hover {
   color: aqua;
@@ -76,6 +77,9 @@ body {
   font-size: 16px;
   width: 200px;
   height: 50px;
+  border: none;
+  border-radius: 10%;
+  cursor: pointer;
 }
 .white-text {
   color: #ffffff;
@@ -126,8 +130,9 @@ figcaption {
   font-size: 14px;
 }
 .link-contact-bottom {
-  color: rgba(255, 255, 255, 0.6);
+  color: #ffffff99;
   font-size: 14px;
+  cursor: pointer;
 }
 .link-contact-bottom:hover {
   color: aqua;
@@ -136,6 +141,8 @@ figcaption {
   font-weight: 500px;
   font-size: 16px;
   text-align: center;
+  border: none;
+  border-radius: 10%;
 }
 .schedule-body:hover {
   background-color: #2196f3;
