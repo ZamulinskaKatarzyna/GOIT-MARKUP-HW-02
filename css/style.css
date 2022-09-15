@@ -15,11 +15,12 @@ body {
   color: #2196f3;
 }
 
-.links-ag {
+.link-ag {
   color: #2196f3;
   font-weight: 500px;
   font-size: 14px;
   cursor: pointer;
+  text-decoration: none;
 }
 .links-ag:active {
   color: red;
@@ -30,6 +31,7 @@ body {
   font-weight: 500px;
   font-size: 14px;
   cursor: pointer;
+  text-decoration: none;
 }
 .link-email {
   color: #2196f3;
