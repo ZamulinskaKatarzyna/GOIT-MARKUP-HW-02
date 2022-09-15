@@ -9,6 +9,7 @@ body {
   font-weight: 700px;
   font-size: 26px;
   color: #000000;
+  text-decoration: none;
 }
 .blue-text {
   color: #2196f3;
@@ -19,6 +20,7 @@ body {
   font-weight: 500px;
   font-size: 14px;
   cursor: pointer;
+  text-decoration: none;
 }
 .links-ag:active {
   color: red;
@@ -36,6 +38,7 @@ body {
   font-weight: 500px;
   font-size: 14px;
   cursor: pointer;
+  text-decoration: none;
 }
 .link-email:hover {
   color: aqua;
@@ -47,6 +50,7 @@ body {
   font-size: 14px;
   font-style: Medium;
   cursor: pointer;
+  text-decoration: none;
 }
 .link-contact:hover {
   color: aqua;
